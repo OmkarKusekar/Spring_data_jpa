@@ -1,6 +1,6 @@
 package com.omkar.Spring_data_jpa.service;
 
-import com.omkar.Spring_data_jpa.EmployeeRepo.EmployeeRepository;
+import com.omkar.Spring_data_jpa.repository.EmployeeRepository;
 import com.omkar.Spring_data_jpa.Entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -15,20 +15,20 @@ public class Main {
         Student s2=context.getBean(Student.class);
         Student s3=context.getBean(Student.class);
 
+//
+//        s1.setRollNo(1);
+//        s1.setName("Omkar");
+//        s1.setMarks(89);
+//
+//        s2.setRollNo(2);
+//        s2.setName("Sunny");
+//        s2.setMarks(87);
+//
+//        s3.setRollNo(3);
+//        s3.setName("Abhi");
+//        s3.setMarks(90);
+//
 
-        s1.setRollNo(1);
-        s1.setName("Omkar");
-        s1.setMarks(89);
-
-        s2.setRollNo(2);
-        s2.setName("Sunny");
-        s2.setMarks(87);
-
-        s3.setRollNo(3);
-        s3.setName("Abhi");
-        s3.setMarks(90);
-        repo.save(s1);
-        repo.save(s2);
-        repo.save(s3);
+        System.out.println(repo.findAll());
     }
 }

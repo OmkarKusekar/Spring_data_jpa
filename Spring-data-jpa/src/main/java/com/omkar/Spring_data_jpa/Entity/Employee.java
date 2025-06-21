@@ -18,5 +18,7 @@ public class Employee {
     private String email;
 
 
+    public void save(Employee obj) {
 
+    }
 }
